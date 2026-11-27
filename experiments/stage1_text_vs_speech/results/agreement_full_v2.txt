@@ -1,0 +1,29 @@
+judged 49445, parse failures 3
+| model | run | n | agree | rule✓judge✗ | rule✗judge✓ |
+|---|---|---|---|---|---|
+| glm4voice | A_a | 2417 | 2278 | 67 | 72 |
+| glm4voice | A_bc | 2417 | 1949 | 170 | 298 |
+| glm4voice | A_q | 1319 | 1282 | 3 | 34 |
+| glm4voice | C_b | 2417 | 1997 | 132 | 288 |
+| glm4voice | C_q | 1319 | 1288 | 5 | 26 |
+| kimiaudio | A_a | 2417 | 2286 | 72 | 59 |
+| kimiaudio | A_bc | 2417 | 2103 | 179 | 135 |
+| kimiaudio | A_q | 1318 | 1242 | 0 | 76 |
+| kimiaudio | C_b | 2417 | 2160 | 85 | 172 |
+| kimiaudio | C_q | 1319 | 1282 | 1 | 36 |
+| llamaomni2 | A_a | 2417 | 2273 | 61 | 83 |
+| llamaomni2 | A_bc | 2417 | 1940 | 149 | 328 |
+| llamaomni2 | A_q | 1319 | 1201 | 8 | 110 |
+| llamaomni2 | C_b | 2417 | 1949 | 141 | 327 |
+| llamaomni2 | C_q | 1319 | 1235 | 17 | 67 |
+| qwen25omni | A_a | 2417 | 2315 | 53 | 49 |
+| qwen25omni | A_bc | 2417 | 2032 | 146 | 239 |
+| qwen25omni | A_q | 1319 | 1222 | 1 | 96 |
+| qwen25omni | C_b | 2417 | 2028 | 148 | 241 |
+| qwen25omni | C_q | 1319 | 1224 | 2 | 93 |
+| ultravox | A_a | 2416 | 2232 | 88 | 96 |
+| ultravox | A_bc | 2416 | 2012 | 266 | 138 |
+| ultravox | A_q | 1319 | 1203 | 1 | 115 |
+| ultravox | C_b | 2417 | 2022 | 222 | 173 |
+| ultravox | C_q | 1319 | 1224 | 2 | 93 |
+| all | | 49442 | 43979 (89.0%) | 2019 | 3444 |
